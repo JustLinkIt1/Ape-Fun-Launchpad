@@ -7,6 +7,7 @@ import {
 import { PhantomWalletAdapter } from '@solana/wallet-adapter-wallets';
 import { clusterApiUrl } from '@solana/web3.js';
 import '@solana/wallet-adapter-react-ui/styles.css';
+import '../styles/global.css';
 
 export default function App({ Component, pageProps }: AppProps) {
   const endpoint = process.env.NEXT_PUBLIC_RPC_URL || clusterApiUrl('devnet');

@@ -1,4 +1,4 @@
-# Ape Fun Launchpad UI
+# Ape Fun UI
 
 This folder contains a minimal Next.js interface for interacting with the smart contracts in the root of this repository. It provides a Solana wallet connection, a sample chart component and a button to create a token using the provided library utilities.
 

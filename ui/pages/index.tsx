@@ -5,14 +5,16 @@ import TokenCreator from '../components/TokenCreator';
 
 export default function Home() {
   return (
-    <div style={{ padding: '2rem' }}>
+    <div className="main">
       <Head>
-        <title>Ape Fun Launchpad</title>
+        <title>Ape Fun</title>
       </Head>
-      <WalletMultiButton />
-      <h1>Ape Fun Launchpad</h1>
-      <Chart />
-      <TokenCreator />
+      <div className="card">
+        <WalletMultiButton />
+        <h1>Ape Fun</h1>
+        <Chart />
+        <TokenCreator />
+      </div>
     </div>
   );
 }

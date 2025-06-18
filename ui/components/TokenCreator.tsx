@@ -24,7 +24,7 @@ export default function TokenCreator() {
   };
 
   return (
-    <div style={{ marginTop: '1rem' }}>
+    <div className="token-creator">
       <Button disabled={!publicKey || loading} onClick={onCreate}>
         Create Token
       </Button>

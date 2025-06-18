@@ -162,3 +162,17 @@ yarn script swap -t <TOKEN_MINT> -a <SWAP_AMOUNT> -s <SWAP_DIRECTION>
 ```bash
 yarn script migrate -m <TOKEN_MINT>
 ```
+
+## 🌐 Deploying the UI to Vercel
+
+Follow these steps to host the Next.js frontend with Vercel:
+
+1. Create a new project in Vercel and select `ui` as the **Root Directory**.
+2. Choose the **Next.js** framework preset so Vercel can detect the build automatically.
+3. Set the **Build Command** to `yarn build` (the default install command `yarn install` can be used).
+4. Vercel serves the `.next` output directory automatically.
+5. Add the required environment variables:
+   - `NEXT_PUBLIC_RPC_URL` - RPC endpoint for the wallet connection.
+   - `RPC_URL` - RPC endpoint used by API routes.
+   - `KEYPAIR` - path to or contents of the signer keypair JSON.
+

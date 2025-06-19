@@ -11,7 +11,7 @@ The **Pump.fun Smart Contract forking** is an innovative platform  designed to a
 - **Discord Integration**: Receive real-time notifications on Discord via webhooks.
 - **Fee**: Handling gather fee from user who use our smart contract.
 - 🚀 **Migration to Meteora/Raydium** 🚀: Migration to Meteora/Raydium using CPI call.
-- 🚀 **Whiltelist** 🚀: Add user to whitelist to add more permission to each user.
+- 🚀 **Whitelist** 🚀: Add user to whitelist to add more permission to each user.
 - 🚀 **Spam Detection** 🚀: Automatically catch and handle spammers making transactions to the OpenBook market.
 
 ## 📋 Demo

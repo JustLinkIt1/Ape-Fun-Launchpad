@@ -12,9 +12,9 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "@solana/web3.js": "^1.89.0",
-    "@solana/wallet-adapter-react": "^0.15.31",
-    "@solana/wallet-adapter-react-ui": "^0.15.31",
-    "@solana/wallet-adapter-wallets": "^0.15.31",
+    "@solana/wallet-adapter-react": "^0.20.0",
+    "@solana/wallet-adapter-react-ui": "^0.20.0",
+    "@solana/wallet-adapter-wallets": "^0.20.0",
     "recharts": "^2.6.2",
     "@coral-xyz/anchor": "^0.30.1"
   },
